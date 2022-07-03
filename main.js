@@ -23,3 +23,11 @@ function programHandaler(e){
         console.log(e.target.value +" is unchecked")
     }
 }
+
+const dep = document.querySelector("#depertmentName");
+
+dep.addEventListener("change", depRead);
+
+function depRead(e){
+    console.log(e.target.value);
+}
